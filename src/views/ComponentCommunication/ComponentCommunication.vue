@@ -23,6 +23,9 @@ export default {
       list: [
         { label: 'props/@on+$emit', router: 'PropsOnEmit'},
         { label: 'attrs/$listeners', router: 'AttrsListeners'},
+        { label: 'provide/inject组合拳', router: 'ProvideInject'},
+        { label: 'evnetBus', router: 'eventBus' },
+        { label: 'vuex', router: 'vuex' }
       ]
     }
   },

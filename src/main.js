@@ -5,8 +5,12 @@ import store from './store'
 
 Vue.config.productionTip = false
 
-new Vue({
+const vm = new Vue({
   router,
   store,
   render: h => h(App)
 }).$mount('#app')
+
+let eventBus = new Vue();
+Vue.prototype.$bus = eventBus;
+console.log(vm);
